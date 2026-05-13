@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorecard</title>
+    <link rel="stylesheet" href="scorecard.css">
+
+</head>
+
+<body>
+    <div class="layout">
+        <div class="Home">
+            <h1 class="team">HOME</h1>
+            <h2 class="score" id="Home">0</h2>
+            <div class="button">
+                <button id="Home-plus-1" onclick="INCREMENTONE()">+1</button>
+                <button id="Home-plus-2" onclick="INCREMENTTWO()">+2</button>
+                <button id="Home-plus-3" onclick="INCREMENTTHREE()">+3</button>
+            </div>
+        </div>
+        <div class="Guest">
+            <h1 class="team">GUEST</h1>
+            <h2 class="score" id="Guest">0</h2>
+            <div class="button">
+                <button id="Guest-plus-1" onclick="INCREASEONE()">+1</button>
+                <button id="Guest-plus-2" onclick="INCREASETWO()">+2</button>
+                <button id="Guest-plus-3" onclick="INCREASETHREE()">+3</button>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scorecard.js"></script>
+
+</body>
+
+</html>
